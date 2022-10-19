@@ -1,0 +1,13 @@
+﻿<Window x:Class="ObserverTask.Youtuber"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObserverTask"
+        mc:Ignorable="d"
+        Title="Youtuber" Height="450" Width="800">
+    <Grid>
+        <Button Click="add_post_btn_Click" FontSize="26" FontWeight="DemiBold" Height="100" Width="400" Margin="0,0,0,200" Name="add_post_btn"  Background="White" BorderBrush="Red" BorderThickness="10">Add New Post</Button>
+        <Button Click="show_sub_btn_Click" FontSize="26" FontWeight="DemiBold" Height="100" Width="400" Margin="0,200,0,0" Name="show_sub_btn" Background="White" BorderBrush="Red" BorderThickness="10">Show All Subscribers</Button>
+    </Grid>
+</Window>

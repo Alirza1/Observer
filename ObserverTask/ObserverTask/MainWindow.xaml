@@ -1,0 +1,13 @@
+﻿<Window x:Class="ObserverTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObserverTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Width="400" HorizontalAlignment="Left" Background="Red" FontSize="36" FontWeight="DemiBold"  Name="youtuber_btn" Click="youtuber_btn_Click">Youtuber</Button>
+        <Button Width="400" HorizontalAlignment="Right" Background="White" FontSize="36" FontWeight="DemiBold" Name="subscriber_btn" Click="subscriber_btn_Click">Subscriber</Button>
+    </Grid>
+</Window>
